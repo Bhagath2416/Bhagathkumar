@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Sedgwick+Ave+Display&display=swap');
+        body{
+            margin:0;
+            background-color: black;
+            color:white;
+        }
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:black;
+}
+.navbar-left{
+    padding-left: 10px;
+}
+.navbar-right{
+    display:flex;
+    padding-right: 10px;
+    align-items: center;
+}
+.ab{
+    padding: 10px;
+    margin:10px;
+    font-family: 'Nosifer', sans-serif;
+font-size: 15px;
+color:yellow;
+font-weight:bold;
+}
+.bhagath{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+height:85vh;
+}
+.bhagath-left{
+    width:50vw;
+    text-align:right;
+    padding-left:60px;
+    font-family: 'Nosifer', sans-serif;
+    
+
+}
+img{
+    height:60vh;
+}
+.raj{
+    height:10vh;
+
+}
+.bhagath-right{
+    padding-right: 80px;
+}
+.lokesh{
+    height:28vh;
+    padding-top:10px;
+}
+.lucky{
+    color:red;
+}
+.luck{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+}
+    
+.preethi{
+    color:green;
+    font-style: oblique;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.b{
+    padding:10px;
+    border:7px groove green;
+    margin:40px;
+    width: 400px;
+}
+.contact{
+    text-align:center;
+}
+.color-c{
+    color: green;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.h{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.a{
+    height:11vh;
+    padding:10px;
+}
+    .c{
+        height:80px;
+    padding:10px;
+    }
+    
+
+    </style>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img class="lokesh" src="https://res.cloudinary.com/dryognkas/image/upload/v1698348675/Screenshot_20231027_005751_Chrome-modified_k3iuav.png">
+</div>
+<div class="navbar-right">
+<a class="ab">Home</a>
+<a class="ab">About</a>
+<a class="ab">Services</a>
+<a class="ab">Contact</a>
+</div>
+</div>
+<div class="bhagath">
+    <div class="bhagath-left">
+    <h1 class="lucky">BLOODY BHAGATH KUMAR</h1>
+    <h2 class="luck">MY NAME IS BHAGATH KUMAR IAM FROM ANDHRA PRADESH I AM STUDYING 6TH OF MY FATHER HAS BEEN DIED AND IAM TO HARD WORKER I HAVE SO MUCH KNOWLEDGE ON C PYTHONa ND DSA AND WEB DEVELOPER BUT IAM WEAK AT ENGLISH</h2>    
+    </div>
+    <div class="bhagath-right">
+    <img src="https://res.cloudinary.com/dryognkas/image/upload/v1697302403/IMG-20230714-WA0015-modified_dusb0v.png" alt="MY LOGO" >
+    </div>
+    </div>
+    
+                    <h1 class="preethi">SERVICES WE OFFER </h1>
+            
+            <div class="container">
+            <div class="b"> 
+                <h2>WEB DESIGN</h2>
+                <h3> i am your bhagath kumar eppudu nenu full stack developer machine learning ante vere level intrest</h3>
+            </div>
+            <div class="b"> 
+                <h2>VIDEO EDITING</h2>
+                <h3> i am your bhagath kumar eppudu nenu video editing baga chesta ante vere level intrest</h3>
+            </div>
+            <div class="b"> 
+                <h2>FREE FIRE</h2>
+                <h3> free ante vere level entrest ade enka savasam anna chikki is my favourate player vinu mams jinka</h3>
+            </div>
+          </div>
+    
+    <div class="contact">
+        <div class="color-c"> 
+            <h1>CONTACT US</h1>
+            </div>
+        <div class="h">
+            <h4>Bhagath kumar</h4>
+            <h4>+91 9063927496</h4>
+            <h4>rojagottipati8@gmail.com</h4>
+        </div>
+        <div >
+            <a href="https://instagram.com/alone_boy_bhagath?igshid=NGVhN2U2NjQ0Yg==">
+         <img src="https://i.pinimg.com/736x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg" class="a">
+         </a>
+         <a href="https://www.youtube.com/@noobgamingyt77">
+            <img src="data:image/png;base64,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" class="c">
+         </a>
+        </div>
+    </div>
+    
+
+</body>
+</html>
